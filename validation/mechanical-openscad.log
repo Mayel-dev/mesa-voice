@@ -1,0 +1,60 @@
+$ work\tools\openscad\openscad-2021.01\openscad.exe -o C:\Users\mayel\Documents\Codex\2026-11-09\quiero-que-dise-es-desde-cero\outputs\mesa-voice\mechanical\stl\base.stl -D part="base" C:\Users\mayel\Documents\Codex\2026-11-09\quiero-que-dise-es-desde-cero\outputs\mesa-voice\mechanical\enclosure.scad
+Geometries in cache: 43
+Geometry cache size in bytes: 261440
+CGAL Polyhedrons in cache: 12
+CGAL cache size in bytes: 7346432
+Total rendering time: 0:00:06.702
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:     2024
+   Halfedges:    6072
+   Edges:        3036
+   Halffacets:   2054
+   Facets:       1027
+   Volumes:         2
+
+exit=0
+
+$ work\tools\openscad\openscad-2021.01\openscad.exe -o C:\Users\mayel\Documents\Codex\2026-11-09\quiero-que-dise-es-desde-cero\outputs\mesa-voice\mechanical\stl\lid.stl -D part="lid" C:\Users\mayel\Documents\Codex\2026-11-09\quiero-que-dise-es-desde-cero\outputs\mesa-voice\mechanical\enclosure.scad
+Geometries in cache: 146
+Geometry cache size in bytes: 1359704
+CGAL Polyhedrons in cache: 11
+CGAL cache size in bytes: 44190240
+Total rendering time: 0:01:27.299
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:    15720
+   Halfedges:   47160
+   Edges:       23580
+   Halffacets:  15754
+   Facets:       7877
+   Volumes:         2
+
+exit=0
+
+$ work\tools\openscad\openscad-2021.01\openscad.exe -o C:\Users\mayel\Documents\Codex\2026-11-09\quiero-que-dise-es-desde-cero\outputs\mesa-voice\mechanical\stl\speaker_clamp.stl -D part="speaker_clamp" C:\Users\mayel\Documents\Codex\2026-11-09\quiero-que-dise-es-desde-cero\outputs\mesa-voice\mechanical\enclosure.scad
+Geometries in cache: 28
+Geometry cache size in bytes: 267488
+CGAL Polyhedrons in cache: 5
+CGAL cache size in bytes: 3339936
+Total rendering time: 0:00:03.402
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:     1040
+   Halfedges:    3120
+   Edges:        1560
+   Halffacets:   1042
+   Facets:        521
+   Volumes:         2
+
+exit=0
+
+FITCHECK
+Geometries in cache: 245
+Geometry cache size in bytes: 2054872
+CGAL Polyhedrons in cache: 29
+CGAL cache size in bytes: 84898128
+Total rendering time: 0:01:56.665
+Current top level object is empty.
+
+exit=1

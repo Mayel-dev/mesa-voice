@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\mayel\Documents\Codex\2026-11-09\quiero-que-dise-es-desde-cero\outputs\mesa-voice\hardware\wiring.kicad_sch</source>
+    <date>2026-11-10T00:25:24-0500</date>
+    <tool>Eeschema 9.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Mesa Voice - offboard harnesses</title>
+        <company/>
+        <rev>1.0</rev>
+        <date>2026-11-09</date>
+        <source>wiring.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>Kingbright WP710A10SGD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Harness" part="D1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wiring.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8df1bfa2-4313-51e9-a7e8-6ac4a9743015</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Carrier JST-XH J1</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Harness" part="J1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wiring.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d6f6f01-319f-5f8e-bbc0-341233b4cb6d</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Carrier JST-XH J2</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Harness" part="J2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wiring.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a291df76-be35-5515-afbb-98aa8dd0cf86</tstamps>
+    </comp>
+    <comp ref="JSPK">
+      <value>U2 onboard screw terminal</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Harness" part="JSPK" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wiring.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7523f7a7-c054-5290-801c-9667ba0461f8</tstamps>
+    </comp>
+    <comp ref="LS1">
+      <value>Visaton K40 8 ohm / 1W</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Harness" part="LS1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wiring.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28ee53ef-b680-59f9-a999-9d5db906b536</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>E-Switch PV6F240SS</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Harness" part="SW1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wiring.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3826d5e1-87cf-53e8-a652-58cb35a7279f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Harness" part="D1">
+      <fields>
+        <field name="Reference">D1</field>
+        <field name="Value">Kingbright WP710A10SGD</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="Anode_(+)" type="passive"/>
+        <pin num="2" name="Cathode_(-)" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Harness" part="J1">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">Carrier JST-XH J1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PTT" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Harness" part="J2">
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">Carrier JST-XH J2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="LED_A" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Harness" part="JSPK">
+      <fields>
+        <field name="Reference">JSPK</field>
+        <field name="Value">U2 onboard screw terminal</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SPK+" type="passive"/>
+        <pin num="2" name="SPK-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Harness" part="LS1">
+      <fields>
+        <field name="Reference">LS1</field>
+        <field name="Value">Visaton K40 8 ohm / 1W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+_terminal" type="passive"/>
+        <pin num="2" name="-_terminal" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Harness" part="SW1">
+      <fields>
+        <field name="Reference">SW1</field>
+        <field name="Value">E-Switch PV6F240SS</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="NO_contact_A" type="passive"/>
+        <pin num="2" name="NO_contact_B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Harness">
+      <uri>C:\Users\mayel\Documents\Codex\2026-11-09\quiero-que-dise-es-desde-cero\outputs\mesa-voice\hardware/Harness.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D1-Anode_(+))" class="Default">
+      <node ref="D1" pin="1" pinfunction="Anode_(+)" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="LED_A" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(D1-Cathode_(-))" class="Default">
+      <node ref="D1" pin="2" pinfunction="Cathode_(-)" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(J1-GND)" class="Default">
+      <node ref="J1" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="NO_contact_B" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(J1-PTT)" class="Default">
+      <node ref="J1" pin="1" pinfunction="PTT" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="NO_contact_A" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(JSPK-SPK+)" class="Default">
+      <node ref="JSPK" pin="1" pinfunction="SPK+" pintype="passive"/>
+      <node ref="LS1" pin="1" pinfunction="+_terminal" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(JSPK-SPK-)" class="Default">
+      <node ref="JSPK" pin="2" pinfunction="SPK-" pintype="passive"/>
+      <node ref="LS1" pin="2" pinfunction="-_terminal" pintype="passive"/>
+    </net>
+  </nets>
+</export>

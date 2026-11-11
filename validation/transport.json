@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "server": "uvicorn localhost, ephemeral port",
+  "mode": "mock",
+  "health": {
+    "status": "ok",
+    "mode": "mock",
+    "protocol": 1
+  },
+  "status": 200,
+  "response_bytes": 8044,
+  "pcm_rate": 16000,
+  "pcm_bits": 16,
+  "channels": 1,
+  "duration_seconds": 0.25,
+  "canonical_wav": true,
+  "real_ai_inference_tested": false
+}

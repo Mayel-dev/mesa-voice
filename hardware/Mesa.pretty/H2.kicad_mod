@@ -1,0 +1,142 @@
+(footprint "H2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "H2"
+		(at 0 4.25 0)
+		(layer "F.Fab")
+		(uuid "3f1b2a28-3e66-4d12-bbcc-75b925df707b")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.13)
+			)
+		)
+	)
+	(property "Value" "M3"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af37bfb9-7fbc-4998-830c-e525fdedeb68")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53002b4e-ffbe-40af-a711-7f1f1c3e156b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3137c27c-46d2-4878-ac78-7f849acdab9f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -2.8 -2.8)
+		(end 2.8 -2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "eff82066-d97f-45e2-8e6a-5d91a48523f9")
+	)
+	(fp_line
+		(start -2.8 2.8)
+		(end -2.8 -2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a8f893bb-de0f-4d46-9855-78a6da44ed76")
+	)
+	(fp_line
+		(start 2.8 -2.8)
+		(end 2.8 2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "63027c25-42da-45be-ac12-d7e5f6d29313")
+	)
+	(fp_line
+		(start 2.8 2.8)
+		(end -2.8 2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "591a5e08-2a68-495c-9666-836d39bfbb5f")
+	)
+	(fp_line
+		(start -2.75 -2.75)
+		(end 2.75 -2.75)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "545e83aa-b8db-497d-86d6-4cf61bab4ea1")
+	)
+	(fp_line
+		(start -2.75 2.75)
+		(end -2.75 -2.75)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b288aa92-a80a-429e-ac1c-b203f6dfb336")
+	)
+	(fp_line
+		(start 2.75 -2.75)
+		(end 2.75 2.75)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f8dd1be0-db76-46b3-a074-8f2b8eb6eda6")
+	)
+	(fp_line
+		(start 2.75 2.75)
+		(end -2.75 2.75)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7764d203-ec46-4645-a4a8-d15312fae27f")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "16d84d65-4133-474a-942e-143dd5d98734")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,25 @@
+{
+  "router": "deterministic two-layer A*",
+  "routed_connections": 31,
+  "track_segments": 170,
+  "vias": 18,
+  "route_order": [
+    "GND",
+    "BCLK_SRC",
+    "LRCLK_SRC",
+    "DIN_SRC",
+    "BCLK",
+    "LRCLK",
+    "DIN",
+    "+5V_USB",
+    "+5V_AMP",
+    "AMP_GAIN",
+    "AMP_SD",
+    "MUTE",
+    "+3V3",
+    "LED_GPIO",
+    "LED_A",
+    "PTT"
+  ],
+  "note": "Must pass KiCad DRC and independent netlist parity before fabrication."
+}

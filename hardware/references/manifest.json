@@ -1,0 +1,26 @@
+{
+  "consulted": "2026-11-09",
+  "modified": false,
+  "files": {
+    "seeed-sense-v1.51.pdf": {
+      "source": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/new-res/202003753_XIAO%20ESP32S3%20Sense_V1.51_SCH_260611.pdf",
+      "sha256": "5948fca9dc263261d0b795a83a1e667fc19ad2e7d550603f4ee00264e7563967"
+    },
+    "seeed-expansion-v1.2.pdf": {
+      "source": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/res/XIAO_ESP32S3_Exp_Board_v1.2_SCH_PDF_260810.pdf",
+      "sha256": "151a31f9edd3c36dd0fff27a24861205f6f32f6d1d6d99fdb3957b69297e9f9f"
+    },
+    "adafruit-3006.sch": {
+      "source": "https://github.com/adafruit/Adafruit-MAX98357-I2S-Amp-Breakout",
+      "sha256": "293c896e06264070003c83f09d000e52a9c095b56f83e2eb06711a8eec40ba8f"
+    },
+    "adafruit-3006.brd": {
+      "source": "https://github.com/adafruit/Adafruit-MAX98357-I2S-Amp-Breakout",
+      "sha256": "de54250dee04ac9aa117992ecf2da398a11785ee4310fdfde1480231e2b54f84"
+    },
+    "adafruit-license.txt": {
+      "source": "https://github.com/adafruit/Adafruit-MAX98357-I2S-Amp-Breakout",
+      "sha256": "1f63e1f4676a433423b2c2ff1ccd9e80093f341f10b81f0ac0106342bc7bbe89"
+    }
+  }
+}

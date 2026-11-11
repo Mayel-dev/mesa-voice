@@ -1,0 +1,3 @@
+Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+test_audio_protocol.cpp
+PASS: canonical WAV acceptance/rejection boundaries and all 65536 PCM16 limiter inputs

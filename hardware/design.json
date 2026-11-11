@@ -1,0 +1,1602 @@
+{
+  "board_mm": [
+    64,
+    54,
+    1.6
+  ],
+  "components": [
+    {
+      "ref": "U1",
+      "value": "XIAO ESP32S3 Sense",
+      "xy": [
+        15,
+        9
+      ],
+      "sch": [
+        58,
+        52
+      ],
+      "pads": [
+        {
+          "n": "1",
+          "x": -7.62,
+          "y": -7.62,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1.0,
+          "name": "D0_GPIO1",
+          "typ": "bidirectional"
+        },
+        {
+          "n": "2",
+          "x": -7.62,
+          "y": -5.08,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1.0,
+          "name": "D1_GPIO2",
+          "typ": "bidirectional"
+        },
+        {
+          "n": "3",
+          "x": -7.62,
+          "y": -2.54,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1.0,
+          "name": "D2_GPIO3",
+          "typ": "bidirectional"
+        },
+        {
+          "n": "4",
+          "x": -7.62,
+          "y": 0.0,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1.0,
+          "name": "D3_GPIO4",
+          "typ": "bidirectional"
+        },
+        {
+          "n": "5",
+          "x": -7.62,
+          "y": 2.54,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1.0,
+          "name": "D4_GPIO5",
+          "typ": "bidirectional"
+        },
+        {
+          "n": "6",
+          "x": -7.62,
+          "y": 5.079999999999999,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1.0,
+          "name": "D5_GPIO6",
+          "typ": "bidirectional"
+        },
+        {
+          "n": "7",
+          "x": -7.62,
+          "y": 7.62,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1.0,
+          "name": "D6_GPIO43",
+          "typ": "bidirectional"
+        },
+        {
+          "n": "8",
+          "x": 7.62,
+          "y": 7.62,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1.0,
+          "name": "D7_GPIO44",
+          "typ": "bidirectional"
+        },
+        {
+          "n": "9",
+          "x": 7.62,
+          "y": 5.08,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1.0,
+          "name": "D8_GPIO7",
+          "typ": "bidirectional"
+        },
+        {
+          "n": "10",
+          "x": 7.62,
+          "y": 2.54,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1.0,
+          "name": "D9_GPIO8",
+          "typ": "bidirectional"
+        },
+        {
+          "n": "11",
+          "x": 7.62,
+          "y": 0.0,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1.0,
+          "name": "D10_GPIO9",
+          "typ": "bidirectional"
+        },
+        {
+          "n": "12",
+          "x": 7.62,
+          "y": -2.54,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1.0,
+          "name": "3V3",
+          "typ": "power_out"
+        },
+        {
+          "n": "13",
+          "x": 7.62,
+          "y": -5.079999999999999,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1.0,
+          "name": "GND",
+          "typ": "passive"
+        },
+        {
+          "n": "14",
+          "x": 7.62,
+          "y": -7.62,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1.0,
+          "name": "5V_USB",
+          "typ": "power_out"
+        }
+      ],
+      "nets": {
+        "1": "PTT",
+        "2": "LED_GPIO",
+        "4": "MUTE",
+        "5": "BCLK_SRC",
+        "6": "LRCLK_SRC",
+        "7": "DIN_SRC",
+        "12": "+3V3",
+        "13": "GND",
+        "14": "+5V_USB"
+      },
+      "body": [
+        -8.9,
+        -10.5,
+        8.9,
+        10.5
+      ],
+      "mpn": "Seeed 113991115",
+      "desc": "Includes USB-C, regulator, PSRAM, PDM microphone expansion; remove camera",
+      "uuid": "5f2618c3-0d68-5557-84e9-6ace319789fa",
+      "fp": "Mesa:U1"
+    },
+    {
+      "ref": "U2",
+      "value": "MAX98357A breakout",
+      "xy": [
+        43,
+        22
+      ],
+      "sch": [
+        166,
+        52
+      ],
+      "pads": [
+        {
+          "n": "1",
+          "x": -7.62,
+          "y": 0,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1.0,
+          "name": "VIN",
+          "typ": "power_in"
+        },
+        {
+          "n": "2",
+          "x": -5.08,
+          "y": 0,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1.0,
+          "name": "GND",
+          "typ": "passive"
+        },
+        {
+          "n": "3",
+          "x": -2.54,
+          "y": 0,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1.0,
+          "name": "SD_MODE",
+          "typ": "input"
+        },
+        {
+          "n": "4",
+          "x": 0.0,
+          "y": 0,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1.0,
+          "name": "GAIN",
+          "typ": "passive"
+        },
+        {
+          "n": "5",
+          "x": 2.54,
+          "y": 0,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1.0,
+          "name": "DIN",
+          "typ": "input"
+        },
+        {
+          "n": "6",
+          "x": 5.079999999999999,
+          "y": 0,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1.0,
+          "name": "BCLK",
+          "typ": "input"
+        },
+        {
+          "n": "7",
+          "x": 7.62,
+          "y": 0,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1.0,
+          "name": "LRC",
+          "typ": "input"
+        }
+      ],
+      "nets": {
+        "1": "+5V_AMP",
+        "2": "GND",
+        "3": "AMP_SD",
+        "4": "AMP_GAIN",
+        "5": "DIN",
+        "6": "BCLK",
+        "7": "LRCLK"
+      },
+      "body": [
+        -9.7,
+        -2.54,
+        9.7,
+        15.3
+      ],
+      "mpn": "Adafruit 3006",
+      "desc": "BTL screw terminals directly wired to LS1; 7-pin female socket",
+      "uuid": "99d6ed21-84ae-5c15-a9cf-ea19406f73f6",
+      "fp": "Mesa:U2"
+    },
+    {
+      "ref": "R1",
+      "value": "10k",
+      "xy": [
+        10,
+        26
+      ],
+      "sch": [
+        38,
+        100
+      ],
+      "pads": [
+        {
+          "n": "1",
+          "x": -1,
+          "y": 0,
+          "sx": 1.2,
+          "sy": 1.4,
+          "d": 0,
+          "name": "1",
+          "typ": "passive"
+        },
+        {
+          "n": "2",
+          "x": 1,
+          "y": 0,
+          "sx": 1.2,
+          "sy": 1.4,
+          "d": 0,
+          "name": "2",
+          "typ": "passive"
+        }
+      ],
+      "nets": {
+        "1": "+3V3",
+        "2": "PTT"
+      },
+      "body": [
+        -1.8,
+        -1,
+        1.8,
+        1
+      ],
+      "mpn": "Yageo RC0805FR-0710KL",
+      "desc": "0805 resistor 1%",
+      "uuid": "4c671c49-ffcf-588d-927d-5198100b8de5",
+      "fp": "Mesa:R1"
+    },
+    {
+      "ref": "R2",
+      "value": "1k",
+      "xy": [
+        19,
+        37
+      ],
+      "sch": [
+        80,
+        100
+      ],
+      "pads": [
+        {
+          "n": "1",
+          "x": -1,
+          "y": 0,
+          "sx": 1.2,
+          "sy": 1.4,
+          "d": 0,
+          "name": "1",
+          "typ": "passive"
+        },
+        {
+          "n": "2",
+          "x": 1,
+          "y": 0,
+          "sx": 1.2,
+          "sy": 1.4,
+          "d": 0,
+          "name": "2",
+          "typ": "passive"
+        }
+      ],
+      "nets": {
+        "1": "LED_GPIO",
+        "2": "LED_A"
+      },
+      "body": [
+        -1.8,
+        -1,
+        1.8,
+        1
+      ],
+      "mpn": "Yageo RC0805FR-071KL",
+      "desc": "0805 resistor 1%",
+      "uuid": "a54e22a5-c110-5cc8-8a12-e251de9961b2",
+      "fp": "Mesa:R2"
+    },
+    {
+      "ref": "R3",
+      "value": "100k",
+      "xy": [
+        28,
+        17
+      ],
+      "sch": [
+        122,
+        100
+      ],
+      "pads": [
+        {
+          "n": "1",
+          "x": -1,
+          "y": 0,
+          "sx": 1.2,
+          "sy": 1.4,
+          "d": 0,
+          "name": "1",
+          "typ": "passive"
+        },
+        {
+          "n": "2",
+          "x": 1,
+          "y": 0,
+          "sx": 1.2,
+          "sy": 1.4,
+          "d": 0,
+          "name": "2",
+          "typ": "passive"
+        }
+      ],
+      "nets": {
+        "1": "+3V3",
+        "2": "MUTE"
+      },
+      "body": [
+        -1.8,
+        -1,
+        1.8,
+        1
+      ],
+      "mpn": "Yageo RC0805FR-07100KL",
+      "desc": "0805 resistor 1%",
+      "uuid": "c54e0530-2f20-517b-aeed-f6c196dad2da",
+      "fp": "Mesa:R3"
+    },
+    {
+      "ref": "R4",
+      "value": "100k",
+      "xy": [
+        42,
+        15
+      ],
+      "sch": [
+        164,
+        100
+      ],
+      "pads": [
+        {
+          "n": "1",
+          "x": -1,
+          "y": 0,
+          "sx": 1.2,
+          "sy": 1.4,
+          "d": 0,
+          "name": "1",
+          "typ": "passive"
+        },
+        {
+          "n": "2",
+          "x": 1,
+          "y": 0,
+          "sx": 1.2,
+          "sy": 1.4,
+          "d": 0,
+          "name": "2",
+          "typ": "passive"
+        }
+      ],
+      "nets": {
+        "1": "+5V_AMP",
+        "2": "AMP_GAIN"
+      },
+      "body": [
+        -1.8,
+        -1,
+        1.8,
+        1
+      ],
+      "mpn": "Yageo RC0805FR-07100KL",
+      "desc": "0805 resistor 1%",
+      "uuid": "84a3b44c-5a18-5ee2-aba1-af5d8baad651",
+      "fp": "Mesa:R4"
+    },
+    {
+      "ref": "R5",
+      "value": "33R",
+      "xy": [
+        27,
+        10
+      ],
+      "sch": [
+        38,
+        132
+      ],
+      "pads": [
+        {
+          "n": "1",
+          "x": -1,
+          "y": 0,
+          "sx": 1.2,
+          "sy": 1.4,
+          "d": 0,
+          "name": "1",
+          "typ": "passive"
+        },
+        {
+          "n": "2",
+          "x": 1,
+          "y": 0,
+          "sx": 1.2,
+          "sy": 1.4,
+          "d": 0,
+          "name": "2",
+          "typ": "passive"
+        }
+      ],
+      "nets": {
+        "1": "BCLK_SRC",
+        "2": "BCLK"
+      },
+      "body": [
+        -1.8,
+        -1,
+        1.8,
+        1
+      ],
+      "mpn": "Yageo RC0805FR-0733RL",
+      "desc": "0805 resistor 1%",
+      "uuid": "a732431c-4d37-5d88-bbfb-1355572ec4db",
+      "fp": "Mesa:R5"
+    },
+    {
+      "ref": "R6",
+      "value": "33R",
+      "xy": [
+        27,
+        13
+      ],
+      "sch": [
+        80,
+        132
+      ],
+      "pads": [
+        {
+          "n": "1",
+          "x": -1,
+          "y": 0,
+          "sx": 1.2,
+          "sy": 1.4,
+          "d": 0,
+          "name": "1",
+          "typ": "passive"
+        },
+        {
+          "n": "2",
+          "x": 1,
+          "y": 0,
+          "sx": 1.2,
+          "sy": 1.4,
+          "d": 0,
+          "name": "2",
+          "typ": "passive"
+        }
+      ],
+      "nets": {
+        "1": "LRCLK_SRC",
+        "2": "LRCLK"
+      },
+      "body": [
+        -1.8,
+        -1,
+        1.8,
+        1
+      ],
+      "mpn": "Yageo RC0805FR-0733RL",
+      "desc": "0805 resistor 1%",
+      "uuid": "87385eb9-114d-5202-8858-501b19467318",
+      "fp": "Mesa:R6"
+    },
+    {
+      "ref": "R7",
+      "value": "33R",
+      "xy": [
+        27,
+        21
+      ],
+      "sch": [
+        122,
+        132
+      ],
+      "pads": [
+        {
+          "n": "1",
+          "x": -1,
+          "y": 0,
+          "sx": 1.2,
+          "sy": 1.4,
+          "d": 0,
+          "name": "1",
+          "typ": "passive"
+        },
+        {
+          "n": "2",
+          "x": 1,
+          "y": 0,
+          "sx": 1.2,
+          "sy": 1.4,
+          "d": 0,
+          "name": "2",
+          "typ": "passive"
+        }
+      ],
+      "nets": {
+        "1": "DIN_SRC",
+        "2": "DIN"
+      },
+      "body": [
+        -1.8,
+        -1,
+        1.8,
+        1
+      ],
+      "mpn": "Yageo RC0805FR-0733RL",
+      "desc": "0805 resistor 1%",
+      "uuid": "197f2200-2d9a-5f6b-9aa4-37be230b221e",
+      "fp": "Mesa:R7"
+    },
+    {
+      "ref": "Q1",
+      "value": "BSS138",
+      "xy": [
+        34,
+        16
+      ],
+      "sch": [
+        212,
+        100
+      ],
+      "pads": [
+        {
+          "n": "1",
+          "x": -0.95,
+          "y": 1,
+          "sx": 1.0,
+          "sy": 1.2,
+          "d": 0,
+          "name": "G",
+          "typ": "input"
+        },
+        {
+          "n": "2",
+          "x": 0.95,
+          "y": 1,
+          "sx": 1.0,
+          "sy": 1.2,
+          "d": 0,
+          "name": "S",
+          "typ": "passive"
+        },
+        {
+          "n": "3",
+          "x": 0,
+          "y": -1,
+          "sx": 1.0,
+          "sy": 1.2,
+          "d": 0,
+          "name": "D",
+          "typ": "passive"
+        }
+      ],
+      "nets": {
+        "1": "MUTE",
+        "2": "GND",
+        "3": "AMP_SD"
+      },
+      "body": [
+        -1.6,
+        -1.7,
+        1.6,
+        1.7
+      ],
+      "mpn": "onsemi BSS138LT1G",
+      "desc": "SOT-23 open drain; HIGH GPIO4 mutes amplifier",
+      "uuid": "dfce8da1-79a5-5dbb-9527-134bf1a5e577",
+      "fp": "Mesa:Q1"
+    },
+    {
+      "ref": "F1",
+      "value": "PTC 0.50A",
+      "xy": [
+        29,
+        5
+      ],
+      "sch": [
+        218,
+        52
+      ],
+      "pads": [
+        {
+          "n": "1",
+          "x": -2.1,
+          "y": 0,
+          "sx": 1.5,
+          "sy": 3.2,
+          "d": 0,
+          "name": "1",
+          "typ": "passive"
+        },
+        {
+          "n": "2",
+          "x": 2.1,
+          "y": 0,
+          "sx": 1.5,
+          "sy": 3.2,
+          "d": 0,
+          "name": "2",
+          "typ": "passive"
+        }
+      ],
+      "nets": {
+        "1": "+5V_USB",
+        "2": "+5V_AMP"
+      },
+      "body": [
+        -3.2,
+        -2,
+        3.2,
+        2
+      ],
+      "mpn": "Bourns MF-MSMF050-2",
+      "desc": "Resettable fuse only in amplifier branch, 1812 style 1 manufacturer land pattern",
+      "uuid": "8698ff3e-7ae5-5e05-b0ca-54dd189ed8f8",
+      "fp": "Mesa:F1"
+    },
+    {
+      "ref": "C1",
+      "value": "100n",
+      "xy": [
+        36,
+        9
+      ],
+      "sch": [
+        164,
+        132
+      ],
+      "pads": [
+        {
+          "n": "1",
+          "x": -1,
+          "y": 0,
+          "sx": 1.2,
+          "sy": 1.4,
+          "d": 0,
+          "name": "1",
+          "typ": "passive"
+        },
+        {
+          "n": "2",
+          "x": 1,
+          "y": 0,
+          "sx": 1.2,
+          "sy": 1.4,
+          "d": 0,
+          "name": "2",
+          "typ": "passive"
+        }
+      ],
+      "nets": {
+        "1": "+5V_AMP",
+        "2": "GND"
+      },
+      "body": [
+        -1.8,
+        -1,
+        1.8,
+        1
+      ],
+      "mpn": "Murata GRM21BR71C104KA01L",
+      "desc": "0805 X7R 16V; C2 debounce, C1 local bypass",
+      "uuid": "33468157-b68d-5609-b20f-bf76ff8e3284",
+      "fp": "Mesa:C1"
+    },
+    {
+      "ref": "C2",
+      "value": "100n",
+      "xy": [
+        10,
+        30
+      ],
+      "sch": [
+        212,
+        132
+      ],
+      "pads": [
+        {
+          "n": "1",
+          "x": -1,
+          "y": 0,
+          "sx": 1.2,
+          "sy": 1.4,
+          "d": 0,
+          "name": "1",
+          "typ": "passive"
+        },
+        {
+          "n": "2",
+          "x": 1,
+          "y": 0,
+          "sx": 1.2,
+          "sy": 1.4,
+          "d": 0,
+          "name": "2",
+          "typ": "passive"
+        }
+      ],
+      "nets": {
+        "1": "PTT",
+        "2": "GND"
+      },
+      "body": [
+        -1.8,
+        -1,
+        1.8,
+        1
+      ],
+      "mpn": "Murata GRM21BR71C104KA01L",
+      "desc": "0805 X7R 16V; C2 debounce, C1 local bypass",
+      "uuid": "5b34cffd-2ce4-5d45-866b-96d9b3ff4539",
+      "fp": "Mesa:C2"
+    },
+    {
+      "ref": "J1",
+      "value": "Panel PTT",
+      "xy": [
+        9,
+        40
+      ],
+      "sch": [
+        38,
+        167
+      ],
+      "pads": [
+        {
+          "n": "1",
+          "x": 0,
+          "y": 0,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1,
+          "name": "PTT",
+          "typ": "passive"
+        },
+        {
+          "n": "2",
+          "x": 2.5,
+          "y": 0,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1,
+          "name": "GND",
+          "typ": "passive"
+        }
+      ],
+      "nets": {
+        "1": "PTT",
+        "2": "GND"
+      },
+      "body": [
+        -2.5,
+        -3,
+        5,
+        3
+      ],
+      "mpn": "JST B2B-XH-A(LF)(SN)",
+      "desc": "2-pin JST-XH 2.50mm vertical, keyed harness",
+      "uuid": "ae09d3f9-d035-5739-807b-3825837dc752",
+      "fp": "Mesa:J1"
+    },
+    {
+      "ref": "J2",
+      "value": "Panel LED",
+      "xy": [
+        20,
+        44
+      ],
+      "sch": [
+        92,
+        167
+      ],
+      "pads": [
+        {
+          "n": "1",
+          "x": 0,
+          "y": 0,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1,
+          "name": "LED_A",
+          "typ": "passive"
+        },
+        {
+          "n": "2",
+          "x": 2.5,
+          "y": 0,
+          "sx": 1.8,
+          "sy": 1.8,
+          "d": 1,
+          "name": "LED_K",
+          "typ": "passive"
+        }
+      ],
+      "nets": {
+        "1": "LED_A",
+        "2": "GND"
+      },
+      "body": [
+        -2.5,
+        -3,
+        5,
+        3
+      ],
+      "mpn": "JST B2B-XH-A(LF)(SN)",
+      "desc": "2-pin JST-XH 2.50mm vertical, keyed harness",
+      "uuid": "23fe4503-d99c-5a28-8f30-454b70c36358",
+      "fp": "Mesa:J2"
+    },
+    {
+      "ref": "TP1",
+      "value": "+5V_AMP",
+      "xy": [
+        36,
+        4
+      ],
+      "sch": [
+        135,
+        155
+      ],
+      "pads": [
+        {
+          "n": "1",
+          "x": 0,
+          "y": 0,
+          "sx": 1.5,
+          "sy": 1.5,
+          "d": 0,
+          "name": "TEST",
+          "typ": "passive"
+        }
+      ],
+      "nets": {
+        "1": "+5V_AMP"
+      },
+      "body": [
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "mpn": "PCB test pad",
+      "desc": "1.5 mm exposed test point",
+      "uuid": "4a30617a-f850-5f85-8342-7b61db1d4f15",
+      "fp": "Mesa:TP1"
+    },
+    {
+      "ref": "TP2",
+      "value": "+3V3",
+      "xy": [
+        10,
+        22
+      ],
+      "sch": [
+        171,
+        155
+      ],
+      "pads": [
+        {
+          "n": "1",
+          "x": 0,
+          "y": 0,
+          "sx": 1.5,
+          "sy": 1.5,
+          "d": 0,
+          "name": "TEST",
+          "typ": "passive"
+        }
+      ],
+      "nets": {
+        "1": "+3V3"
+      },
+      "body": [
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "mpn": "PCB test pad",
+      "desc": "1.5 mm exposed test point",
+      "uuid": "23a303a2-5529-5a13-a4eb-4bd40b30ffc4",
+      "fp": "Mesa:TP2"
+    },
+    {
+      "ref": "TP3",
+      "value": "GND",
+      "xy": [
+        36,
+        40
+      ],
+      "sch": [
+        207,
+        155
+      ],
+      "pads": [
+        {
+          "n": "1",
+          "x": 0,
+          "y": 0,
+          "sx": 1.5,
+          "sy": 1.5,
+          "d": 0,
+          "name": "TEST",
+          "typ": "passive"
+        }
+      ],
+      "nets": {
+        "1": "GND"
+      },
+      "body": [
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "mpn": "PCB test pad",
+      "desc": "1.5 mm exposed test point",
+      "uuid": "61437c69-7d1f-50d1-95ec-210670107862",
+      "fp": "Mesa:TP3"
+    },
+    {
+      "ref": "TP4",
+      "value": "AMP_SD",
+      "xy": [
+        56,
+        22
+      ],
+      "sch": [
+        243,
+        155
+      ],
+      "pads": [
+        {
+          "n": "1",
+          "x": 0,
+          "y": 0,
+          "sx": 1.5,
+          "sy": 1.5,
+          "d": 0,
+          "name": "TEST",
+          "typ": "passive"
+        }
+      ],
+      "nets": {
+        "1": "AMP_SD"
+      },
+      "body": [
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "mpn": "PCB test pad",
+      "desc": "1.5 mm exposed test point",
+      "uuid": "ffbef8eb-323a-5128-87b0-aa05c3e9d130",
+      "fp": "Mesa:TP4"
+    },
+    {
+      "ref": "H1",
+      "value": "M3",
+      "xy": [
+        3,
+        3
+      ],
+      "sch": [
+        0,
+        0
+      ],
+      "pads": [
+        {
+          "n": "",
+          "x": 0,
+          "y": 0,
+          "sx": 3.2,
+          "sy": 3.2,
+          "d": 3.2,
+          "name": "",
+          "typ": "passive"
+        }
+      ],
+      "nets": {},
+      "body": [
+        -2.75,
+        -2.75,
+        2.75,
+        2.75
+      ],
+      "mpn": "M3 clearance",
+      "desc": "Non-plated mounting hole; M3 screw head max diameter 5.5mm",
+      "uuid": "dadc13b0-c551-57ae-989e-886bb6e658bf",
+      "fp": "Mesa:H1"
+    },
+    {
+      "ref": "H2",
+      "value": "M3",
+      "xy": [
+        61,
+        3
+      ],
+      "sch": [
+        0,
+        0
+      ],
+      "pads": [
+        {
+          "n": "",
+          "x": 0,
+          "y": 0,
+          "sx": 3.2,
+          "sy": 3.2,
+          "d": 3.2,
+          "name": "",
+          "typ": "passive"
+        }
+      ],
+      "nets": {},
+      "body": [
+        -2.75,
+        -2.75,
+        2.75,
+        2.75
+      ],
+      "mpn": "M3 clearance",
+      "desc": "Non-plated mounting hole; M3 screw head max diameter 5.5mm",
+      "uuid": "cbf92d9d-adbc-5e7b-990e-e185d0f07cdd",
+      "fp": "Mesa:H2"
+    },
+    {
+      "ref": "H3",
+      "value": "M3",
+      "xy": [
+        3,
+        51
+      ],
+      "sch": [
+        0,
+        0
+      ],
+      "pads": [
+        {
+          "n": "",
+          "x": 0,
+          "y": 0,
+          "sx": 3.2,
+          "sy": 3.2,
+          "d": 3.2,
+          "name": "",
+          "typ": "passive"
+        }
+      ],
+      "nets": {},
+      "body": [
+        -2.75,
+        -2.75,
+        2.75,
+        2.75
+      ],
+      "mpn": "M3 clearance",
+      "desc": "Non-plated mounting hole; M3 screw head max diameter 5.5mm",
+      "uuid": "222685b5-9144-5ba3-8b40-9128a9ae9a6b",
+      "fp": "Mesa:H3"
+    },
+    {
+      "ref": "H4",
+      "value": "M3",
+      "xy": [
+        61,
+        51
+      ],
+      "sch": [
+        0,
+        0
+      ],
+      "pads": [
+        {
+          "n": "",
+          "x": 0,
+          "y": 0,
+          "sx": 3.2,
+          "sy": 3.2,
+          "d": 3.2,
+          "name": "",
+          "typ": "passive"
+        }
+      ],
+      "nets": {},
+      "body": [
+        -2.75,
+        -2.75,
+        2.75,
+        2.75
+      ],
+      "mpn": "M3 clearance",
+      "desc": "Non-plated mounting hole; M3 screw head max diameter 5.5mm",
+      "uuid": "1ba25e99-64ab-5c2a-b27c-0f83819487d0",
+      "fp": "Mesa:H4"
+    }
+  ],
+  "nets": [
+    "+3V3",
+    "+5V_AMP",
+    "+5V_USB",
+    "AMP_GAIN",
+    "AMP_SD",
+    "BCLK",
+    "BCLK_SRC",
+    "DIN",
+    "DIN_SRC",
+    "GND",
+    "LED_A",
+    "LED_GPIO",
+    "LRCLK",
+    "LRCLK_SRC",
+    "MUTE",
+    "PTT"
+  ],
+  "routes": [
+    {
+      "net": "GND",
+      "start": [
+        22.62,
+        3.920001
+      ],
+      "end": [
+        37.0,
+        9.0
+      ],
+      "segments": 7
+    },
+    {
+      "net": "GND",
+      "start": [
+        37.0,
+        9.0
+      ],
+      "end": [
+        34.95,
+        17.0
+      ],
+      "segments": 5
+    },
+    {
+      "net": "GND",
+      "start": [
+        34.95,
+        17.0
+      ],
+      "end": [
+        37.92,
+        22.0
+      ],
+      "segments": 5
+    },
+    {
+      "net": "GND",
+      "start": [
+        37.92,
+        22.0
+      ],
+      "end": [
+        36.0,
+        40.0
+      ],
+      "segments": 6
+    },
+    {
+      "net": "GND",
+      "start": [
+        36.0,
+        40.0
+      ],
+      "end": [
+        22.5,
+        44.0
+      ],
+      "segments": 3
+    },
+    {
+      "net": "GND",
+      "start": [
+        22.5,
+        44.0
+      ],
+      "end": [
+        11.5,
+        40.0
+      ],
+      "segments": 5
+    },
+    {
+      "net": "GND",
+      "start": [
+        11.5,
+        40.0
+      ],
+      "end": [
+        11.0,
+        30.0
+      ],
+      "segments": 2
+    },
+    {
+      "net": "BCLK_SRC",
+      "start": [
+        7.38,
+        11.54
+      ],
+      "end": [
+        26.0,
+        10.0
+      ],
+      "segments": 6
+    },
+    {
+      "net": "LRCLK_SRC",
+      "start": [
+        7.38,
+        14.079999
+      ],
+      "end": [
+        26.0,
+        13.0
+      ],
+      "segments": 10
+    },
+    {
+      "net": "DIN_SRC",
+      "start": [
+        7.38,
+        16.62
+      ],
+      "end": [
+        26.0,
+        21.0
+      ],
+      "segments": 5
+    },
+    {
+      "net": "BCLK",
+      "start": [
+        48.079999,
+        22.0
+      ],
+      "end": [
+        28.0,
+        10.0
+      ],
+      "segments": 5
+    },
+    {
+      "net": "LRCLK",
+      "start": [
+        50.62,
+        22.0
+      ],
+      "end": [
+        28.0,
+        13.0
+      ],
+      "segments": 11
+    },
+    {
+      "net": "DIN",
+      "start": [
+        45.54,
+        22.0
+      ],
+      "end": [
+        28.0,
+        21.0
+      ],
+      "segments": 6
+    },
+    {
+      "net": "+5V_USB",
+      "start": [
+        22.62,
+        1.38
+      ],
+      "end": [
+        26.9,
+        5.0
+      ],
+      "segments": 9
+    },
+    {
+      "net": "+5V_AMP",
+      "start": [
+        35.38,
+        22.0
+      ],
+      "end": [
+        41.0,
+        15.0
+      ],
+      "segments": 10
+    },
+    {
+      "net": "+5V_AMP",
+      "start": [
+        41.0,
+        15.0
+      ],
+      "end": [
+        35.0,
+        9.0
+      ],
+      "segments": 5
+    },
+    {
+      "net": "+5V_AMP",
+      "start": [
+        35.0,
+        9.0
+      ],
+      "end": [
+        36.0,
+        4.0
+      ],
+      "segments": 4
+    },
+    {
+      "net": "+5V_AMP",
+      "start": [
+        36.0,
+        4.0
+      ],
+      "end": [
+        31.1,
+        5.0
+      ],
+      "segments": 3
+    },
+    {
+      "net": "AMP_GAIN",
+      "start": [
+        43.0,
+        22.0
+      ],
+      "end": [
+        43.0,
+        15.0
+      ],
+      "segments": 1
+    },
+    {
+      "net": "AMP_SD",
+      "start": [
+        40.46,
+        22.0
+      ],
+      "end": [
+        34.0,
+        15.0
+      ],
+      "segments": 18
+    },
+    {
+      "net": "AMP_SD",
+      "start": [
+        40.46,
+        22.0
+      ],
+      "end": [
+        56.0,
+        22.0
+      ],
+      "segments": 5
+    },
+    {
+      "net": "MUTE",
+      "start": [
+        7.38,
+        9.0
+      ],
+      "end": [
+        29.0,
+        17.0
+      ],
+      "segments": 14
+    },
+    {
+      "net": "MUTE",
+      "start": [
+        29.0,
+        17.0
+      ],
+      "end": [
+        33.05,
+        17.0
+      ],
+      "segments": 1
+    },
+    {
+      "net": "+3V3",
+      "start": [
+        22.62,
+        6.46
+      ],
+      "end": [
+        27.0,
+        17.0
+      ],
+      "segments": 8
+    },
+    {
+      "net": "+3V3",
+      "start": [
+        27.0,
+        17.0
+      ],
+      "end": [
+        10.0,
+        22.0
+      ],
+      "segments": 9
+    },
+    {
+      "net": "+3V3",
+      "start": [
+        10.0,
+        22.0
+      ],
+      "end": [
+        9.0,
+        26.0
+      ],
+      "segments": 2
+    },
+    {
+      "net": "LED_GPIO",
+      "start": [
+        7.38,
+        3.92
+      ],
+      "end": [
+        18.0,
+        37.0
+      ],
+      "segments": 7
+    },
+    {
+      "net": "LED_A",
+      "start": [
+        20.0,
+        37.0
+      ],
+      "end": [
+        20.0,
+        44.0
+      ],
+      "segments": 3
+    },
+    {
+      "net": "PTT",
+      "start": [
+        7.38,
+        1.38
+      ],
+      "end": [
+        11.0,
+        26.0
+      ],
+      "segments": 6
+    },
+    {
+      "net": "PTT",
+      "start": [
+        11.0,
+        26.0
+      ],
+      "end": [
+        9.0,
+        30.0
+      ],
+      "segments": 7
+    },
+    {
+      "net": "PTT",
+      "start": [
+        9.0,
+        30.0
+      ],
+      "end": [
+        9.0,
+        40.0
+      ],
+      "segments": 1
+    }
+  ]
+}

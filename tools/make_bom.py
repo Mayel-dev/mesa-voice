@@ -1,0 +1,36 @@
+"""Consolidate physical BOM. No price/availability claims or purchase calls."""
+from pathlib import Path
+import csv,json
+R=Path(__file__).resolve().parents[1];D=json.loads((R/'hardware/design.json').read_text())
+rows=[]
+for c in D['components']:
+    if c['ref'].startswith(('TP','H')):continue
+    rows.append([c['ref'],1,c['value'],c['mpn'],'PCB/module',c['desc']])
+rows += [
+ ['PCB1',1,'Portadora FR4 64x54x1.6 / 2 capas','Mesa Voice R1','Fabricación','Gerber y taladros en hardware/fabrication'],
+ ['U1 sockets + U2 socket',3,'Hembra 1x7 paso2.54','Samtec SSW-107-01-T-S','Conector','Validar altura 8.51mm de la variante; no sustituir sin revisar stack'],
+ ['Module headers',3,'Macho 1x7 paso2.54','Samtec TSW-107-07-T-S','Conector','Soldar bajo U1 y U2; altura de plástico nominal2.54mm'],
+ ['J1/J2 mates',2,'Carcasa hembra 2 polos','JST XHP-2','Cable','Pareja para B2B-XH-A; no confundir paso2.50 con2.54'],
+ ['J1/J2 contacts',4,'Contacto crimp 22-28AWG','JST SXH-001T-P0.6','Cable','Crimpar con herramienta compatible o usar latiguillo premontado'],
+ ['SW1',1,'Pulsador NO momentáneo M16','E-Switch PV6F240SS','Panel','Sin LED, fijación roscada; cableado2 contactos'],
+ ['D1',1,'LED verde T-1 3mm','Kingbright WP710A10SGD','Panel','Ánodo a J2.1; cátodo a J2.2; aislante en patillas'],
+ ['LS1',1,'Altavoz8ohm1W40mm','Visaton K40 art.2840','Audio','No sustituir por versión50ohm art.2841'],
+ ['ANT1',1,'Antena2.4GHz FPC A-02','Seeed318020968','RF','U.FL cable65mm; comprobar alcance sin tensión'],
+ ['CASE1',1,'Base PETG','mechanical/stl/base.stl','Impresión','94x82x40mm'],
+ ['CASE2',1,'Tapa PETG','mechanical/stl/lid.stl','Impresión','Incluye alojamiento altavoz, botón y LED'],
+ ['CASE3',1,'Aro altavoz PETG','mechanical/stl/speaker_clamp.stl','Impresión','4tornillos M2x4'],
+ ['PCB screws',4,'M3x5 cabeza cilíndrica','DIN912 M3x5','Mecánico','Cabeza diámetro<=5.5mm; sin arandela junto a U1'],
+ ['Lid screws',4,'M3x8','DIN912 M3x8','Mecánico','Rosca en piloto plástico2.5mm'],
+ ['Speaker screws',4,'M2x4','DIN912 M2x4','Mecánico','Rosca en piloto plástico1.65mm; no perforar cara exterior'],
+ ['Amp spacers',2,'Tubo nailon11mm, OD<=5mm, ID>=2.7mm','Spec MV-SPACER-11','Mecánico','Cortar tubo aislante a11mm o ajustar al stack real'],
+ ['Amp screws',2,'M2.5x18 nailon','DIN912 M2.5x18 nylon','Mecánico','Pasante módulo/espaciador/carrier'],
+ ['Amp nuts',2,'Tuerca M2.5 nailon','DIN934 M2.5 nylon','Mecánico','Sin contacto conductor con el módulo'],
+ ['Gasket',1,'Espuma cerrada1mm, aro40/36.5mm','Spec MV-GASKET-40','Mecánico','Compresión nominal a0.7mm; membrana libre'],
+ ['Wire',1,'Cable flexible26AWG multicolor / 1m total','UL1007 26AWG','Cable','PTT y LED: dos hilos de unos120mm cada uno; altavoz: dos hilos<=100mm; ajustar holgura real'],
+ ['Insulation',1,'Termorretráctil / silicona neutra / bridas','Consumibles','Montaje','Aislar patillas y retener cables'],
+ ['USB supply',1,'Fuente externa regulada5V >=1A','Especificación USB5V protegida','Alimentación','Sin abrir fuente; sin alimentación paralela; cargador dedicado'],
+ ['USB cable',1,'USB a USB-C con datos <=1m','Especificación USB2 datos','Alimentación','Sobremolde del extremo C <=16x12mm para hueco18x14mm; comprobar alcance'],
+]
+with (R/'BOM.csv').open('w',encoding='utf-8-sig',newline='') as f:
+    w=csv.writer(f);w.writerow(['References','Qty','Description','Manufacturer_Part_or_spec','Category','Notes']);w.writerows(rows)
+print(len(rows),'BOM lines')

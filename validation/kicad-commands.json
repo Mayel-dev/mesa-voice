@@ -1,0 +1,210 @@
+[
+  {
+    "args": [
+      "sch",
+      "erc",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\mesa-voice.kicad_sch",
+      "--format",
+      "json",
+      "-o",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\validation\\erc.json",
+      "--exit-code-violations"
+    ],
+    "exit_code": 0,
+    "stdout": "Se encontraron 0 violaciones\nInforme ERC guardado en C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\validation\\erc.json\n",
+    "stderr": "00:25:21: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acceso denegado.)\n00:25:21: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: El sistema no puede encontrar el archivo especificado.)\n"
+  },
+  {
+    "args": [
+      "sch",
+      "erc",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\wiring.kicad_sch",
+      "--format",
+      "json",
+      "-o",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\validation\\wiring-erc.json",
+      "--exit-code-violations"
+    ],
+    "exit_code": 0,
+    "stdout": "Se encontraron 0 violaciones\nInforme ERC guardado en C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\validation\\wiring-erc.json\n",
+    "stderr": "00:25:21: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acceso denegado.)\n00:25:21: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: El sistema no puede encontrar el archivo especificado.)\n"
+  },
+  {
+    "args": [
+      "pcb",
+      "drc",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\mesa-voice.kicad_pcb",
+      "--schematic-parity",
+      "--format",
+      "json",
+      "-o",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\validation\\drc.json",
+      "--exit-code-violations"
+    ],
+    "exit_code": 0,
+    "stdout": "Se encontraron 0 violaciones\nSe encontr\u00f3 0 objetos no conectados\nSe encontraron 0 problemas de paridad esquem\u00e1tica\nInforme DRC guardado en C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\validation\\drc.json\n",
+    "stderr": "00:25:22: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acceso denegado.)\n00:25:22: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: El sistema no puede encontrar el archivo especificado.)\n"
+  },
+  {
+    "args": [
+      "sch",
+      "export",
+      "netlist",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\mesa-voice.kicad_sch",
+      "--format",
+      "kicadxml",
+      "-o",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\netlist.xml"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "00:25:23: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acceso denegado.)\n00:25:23: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: El sistema no puede encontrar el archivo especificado.)\n"
+  },
+  {
+    "args": [
+      "sch",
+      "export",
+      "netlist",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\wiring.kicad_sch",
+      "--format",
+      "kicadxml",
+      "-o",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\wiring-netlist.xml"
+    ],
+    "exit_code": 0,
+    "stdout": "Advertencia: el esquema tiene errores de anotaci\u00f3n, use el editor de esquemas para corregirlos\n",
+    "stderr": "00:25:24: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acceso denegado.)\n00:25:24: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: El sistema no puede encontrar el archivo especificado.)\n"
+  },
+  {
+    "args": [
+      "pcb",
+      "export",
+      "gerbers",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\mesa-voice.kicad_pcb",
+      "-o",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\fabrication\\",
+      "-l",
+      "F.Cu,B.Cu,F.Mask,B.Mask,F.SilkS,B.SilkS,Edge.Cuts",
+      "--subtract-soldermask"
+    ],
+    "exit_code": 0,
+    "stdout": "Plotted to 'C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\fabrication\\mesa-voice-F_Cu.gtl'.\nPlotted to 'C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\fabrication\\mesa-voice-B_Cu.gbl'.\nPlotted to 'C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\fabrication\\mesa-voice-F_Silkscreen.gto'.\nPlotted to 'C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\fabrication\\mesa-voice-B_Silkscreen.gbo'.\nPlotted to 'C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\fabrication\\mesa-voice-F_Mask.gts'.\nPlotted to 'C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\fabrication\\mesa-voice-B_Mask.gbs'.\nPlotted to 'C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\fabrication\\mesa-voice-Edge_Cuts.gm1'.\n",
+    "stderr": "00:25:24: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acceso denegado.)\n00:25:24: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: El sistema no puede encontrar el archivo especificado.)\n"
+  },
+  {
+    "args": [
+      "pcb",
+      "export",
+      "drill",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\mesa-voice.kicad_pcb",
+      "-o",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\fabrication\\",
+      "--excellon-separate-th",
+      "--generate-map",
+      "--map-format",
+      "svg"
+    ],
+    "exit_code": 0,
+    "stdout": "Archivo 'C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\fabrication\\mesa-voice-PTH.drl' creado\nArchivo 'C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\fabrication\\mesa-voice-NPTH.drl' creado\nArchivo 'C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\fabrication\\mesa-voice-PTH-drl_map.svg' creado.\nArchivo 'C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\fabrication\\mesa-voice-NPTH-drl_map.svg' creado.\nListo.\n",
+    "stderr": "00:25:25: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acceso denegado.)\n00:25:25: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: El sistema no puede encontrar el archivo especificado.)\n"
+  },
+  {
+    "args": [
+      "pcb",
+      "export",
+      "ipc2581",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\mesa-voice.kicad_pcb",
+      "-o",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\fabrication\\mesa-voice-ipc2581.xml"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "00:25:25: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acceso denegado.)\n00:25:25: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: El sistema no puede encontrar el archivo especificado.)\n"
+  },
+  {
+    "args": [
+      "sch",
+      "export",
+      "svg",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\mesa-voice.kicad_sch",
+      "-o",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\previews\\"
+    ],
+    "exit_code": 0,
+    "stdout": "Trazado a 'C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\previews\\mesa-voice.svg'.\nListo.\n",
+    "stderr": "00:25:25: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acceso denegado.)\n00:25:25: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: El sistema no puede encontrar el archivo especificado.)\n"
+  },
+  {
+    "args": [
+      "sch",
+      "export",
+      "svg",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\wiring.kicad_sch",
+      "-o",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\previews\\"
+    ],
+    "exit_code": 0,
+    "stdout": "Trazado a 'C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\previews\\wiring.svg'.\nListo.\n",
+    "stderr": "00:25:26: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acceso denegado.)\n00:25:26: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: El sistema no puede encontrar el archivo especificado.)\n"
+  },
+  {
+    "args": [
+      "pcb",
+      "export",
+      "svg",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\mesa-voice.kicad_pcb",
+      "-l",
+      "F.Cu,F.SilkS,Edge.Cuts",
+      "--mode-single",
+      "--page-size-mode",
+      "2",
+      "--exclude-drawing-sheet",
+      "--sketch-pads-on-fab-layers",
+      "-o",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\previews\\pcb-front.svg"
+    ],
+    "exit_code": 0,
+    "stdout": "Plotted to 'C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\previews\\pcb-front.svg'.\nDone.\n",
+    "stderr": "00:25:27: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acceso denegado.)\n00:25:27: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: El sistema no puede encontrar el archivo especificado.)\n"
+  },
+  {
+    "args": [
+      "pcb",
+      "export",
+      "svg",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\mesa-voice.kicad_pcb",
+      "-l",
+      "B.Cu,B.SilkS,Edge.Cuts",
+      "--mode-single",
+      "--page-size-mode",
+      "2",
+      "--exclude-drawing-sheet",
+      "--sketch-pads-on-fab-layers",
+      "-o",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\previews\\pcb-back.svg"
+    ],
+    "exit_code": 0,
+    "stdout": "Plotted to 'C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\previews\\pcb-back.svg'.\nDone.\n",
+    "stderr": "00:25:27: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acceso denegado.)\n00:25:27: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: El sistema no puede encontrar el archivo especificado.)\n"
+  },
+  {
+    "args": [
+      "pcb",
+      "export",
+      "svg",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\mesa-voice.kicad_pcb",
+      "-l",
+      "F.Fab,Edge.Cuts",
+      "--mode-single",
+      "--page-size-mode",
+      "2",
+      "--exclude-drawing-sheet",
+      "--sketch-pads-on-fab-layers",
+      "-o",
+      "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\previews\\assembly.svg"
+    ],
+    "exit_code": 0,
+    "stdout": "Plotted to 'C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\hardware\\previews\\assembly.svg'.\nDone.\n",
+    "stderr": "00:25:27: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acceso denegado.)\n00:25:27: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: El sistema no puede encontrar el archivo especificado.)\n"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "timestamp_utc": "2026-11-10T05:07:45.737898+00:00",
+  "passed": true,
+  "exit_code": 0,
+  "environment": "validation",
+  "credentials_included": false,
+  "hardware_tested": false,
+  "source_sha256": {
+    "firmware/platformio.ini": "9df834a2b891d925c8e678636e92f716d1b3b7a43a9bbc37cdb2e98d0063abea",
+    "firmware/src/main.cpp": "3dd92e71df4da97e6b661c0f9bfc1eafe6961d1b398319f5984dd9b0d71d1e34",
+    "firmware/include/audio_protocol.h": "a90f03228ef58f63185401b548047bae551b808d8b48715fa57e1b4c4c169238",
+    "firmware/include/config.example.h": "b15a63941cb9efbb46b6f9f35a8a7bc7f2d7f04d8eeedfa0dd9749ce09751a54",
+    "firmware/include/config.validation.h": "9422344e23734c82d26fbaf393ef13a81c22bb6b36d27207e4ae63b336cc7fff"
+  },
+  "artifacts": {
+    "firmware.bin": {
+      "bytes": 705488,
+      "sha256": "9810616dc4ed09a69a5215372291b7f3a64dda2b3429b755c2ac4f288de88176"
+    },
+    "firmware.elf": {
+      "bytes": 11939744,
+      "sha256": "c395bec1dc369dd6d545dbe86e8b8b4a474e45aa9951aed56c18a48ffd2d8860"
+    },
+    "bootloader.bin": {
+      "bytes": 15104,
+      "sha256": "1776e4dd896a69d0a5c2e79957b0e2a88aa4129b1381d6478683515a1f6af343"
+    },
+    "partitions.bin": {
+      "bytes": 3072,
+      "sha256": "1d9cca96de0fe07ad7fc0648b9878ddecd9ce565e38b589ad20fea698ed4c80c"
+    }
+  }
+}

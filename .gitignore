@@ -1,0 +1,16 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.pio/
+.pio-core/
+compile_commands.json
+test_audio_protocol
+test_audio_protocol.exe
+test_audio_protocol.obj
+secrets.h
+.env
+models/
+*.kicad_prl
+*.lck
+*-backups/
+work/

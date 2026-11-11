@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "timestamp_utc": "2026-11-10T05:22:16.341520+00:00",
+  "commands": [
+    {
+      "command": [
+        "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\work\\backend-venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\work\\backend-venv\\Scripts\\python.exe",
+        "C:\\Users\\mayel\\Documents\\Codex\\2026-11-09\\quiero-que-dise-es-desde-cero\\outputs\\mesa-voice\\tools\\check_transport.py"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "real_ai_inference_tested": false,
+  "source_sha256": {
+    "backend/mesa_voice/__init__.py": "b5e2f6a61f3122874031b46989e4ec9755d3292ef2c5e16f2d0d2ace3e2de6e0",
+    "backend/mesa_voice/app.py": "c9ceb469c2a65b8339f4ceaf9c1d358ab0badd9f62e3774441c0e95b6e7f8020",
+    "backend/mesa_voice/audio.py": "8f5764f2fb2bdad7fab5902e3c0d5c9987bbb6fb66316c0c5fc1c599642ea87b",
+    "backend/mesa_voice/config.py": "136223624b053cec1a176eb97e1f3dd1dbfb7c443d0ba19aee74c58ea3c4525e",
+    "backend/mesa_voice/pipeline.py": "dd08598664435bdd1fadd82b27fbd1a6692243c3d760bb9dffa481406cea60bb",
+    "backend/mesa_voice/worker.py": "8f993fd915dc5a6e26fdf56d5e2d480fa7281348b15512a634b1b8ea84a9c022",
+    "backend/pytest.ini": "b160d82f7811555051f8966d8e02750a985227c1d022208c784e606946f2eada",
+    "backend/requirements-dev.txt": "1a091e44a5b147850a34844f1ba631e79fc93576f2b3b53be7ee71ef39e7bee2",
+    "backend/requirements-local.txt": "ee171a6bbd6728c68c595377121d5d0ad0109009202f023059b1f54fa9c46bd5",
+    "backend/requirements-lock-tested.txt": "5e30366e72b6158168515b30f3ab639d3a075780e2926cc07fc61c77deee2ef5",
+    "backend/requirements.txt": "8f7de12fc7f320e0932d2c553a5646b4bbad3d5f36ac24cecd073529073d3e80",
+    "backend/scripts/smoke_client.py": "dd61fce6c20955de120abe3fe8d3174c655db22fb21b65371482a3142e91da70",
+    "backend/tests/test_api.py": "84665644b7182a9e0a9cce63246d2250eac5ad6d6bc374660c848806ce873b43",
+    "backend/tests/test_audio.py": "6de41677a8608281420dd7596001a305efbc21ff79d8fc9f2918d8a5ad696611",
+    "backend/tests/test_config_and_process.py": "00d42d023d089720feed2997ed070b5051999fdd2b0a1d331c178b1732a4fb22",
+    "backend/tests/test_pipeline.py": "4126476486f0261a838e558dc0d584d4e3d41f97eb78817228573e714f83190d",
+    "tools/check_backend.py": "9d5af17bd0fe169b0f0a50850584f05781f43f85cd5606301e410e1d545956bc",
+    "tools/check_transport.py": "3a1dd8d160d2415ab3a7d84a7bcc20ee715a1b4eee52f2918a03477f0fffac95"
+  }
+}

@@ -1,0 +1,24 @@
+﻿Reference,Value,Quantity,MPN,Footprint,Description
+U1,XIAO ESP32S3 Sense,1,Seeed 113991115,Mesa:U1,"Includes USB-C, regulator, PSRAM, PDM microphone expansion; remove camera"
+U2,MAX98357A breakout,1,Adafruit 3006,Mesa:U2,BTL screw terminals directly wired to LS1; 7-pin female socket
+R1,10k,1,Yageo RC0805FR-0710KL,Mesa:R1,0805 resistor 1%
+R2,1k,1,Yageo RC0805FR-071KL,Mesa:R2,0805 resistor 1%
+R3,100k,1,Yageo RC0805FR-07100KL,Mesa:R3,0805 resistor 1%
+R4,100k,1,Yageo RC0805FR-07100KL,Mesa:R4,0805 resistor 1%
+R5,33R,1,Yageo RC0805FR-0733RL,Mesa:R5,0805 resistor 1%
+R6,33R,1,Yageo RC0805FR-0733RL,Mesa:R6,0805 resistor 1%
+R7,33R,1,Yageo RC0805FR-0733RL,Mesa:R7,0805 resistor 1%
+Q1,BSS138,1,onsemi BSS138LT1G,Mesa:Q1,SOT-23 open drain; HIGH GPIO4 mutes amplifier
+F1,PTC 0.50A,1,Bourns MF-MSMF050-2,Mesa:F1,"Resettable fuse only in amplifier branch, 1812 style 1 manufacturer land pattern"
+C1,100n,1,Murata GRM21BR71C104KA01L,Mesa:C1,"0805 X7R 16V; C2 debounce, C1 local bypass"
+C2,100n,1,Murata GRM21BR71C104KA01L,Mesa:C2,"0805 X7R 16V; C2 debounce, C1 local bypass"
+J1,Panel PTT,1,JST B2B-XH-A(LF)(SN),Mesa:J1,"2-pin JST-XH 2.50mm vertical, keyed harness"
+J2,Panel LED,1,JST B2B-XH-A(LF)(SN),Mesa:J2,"2-pin JST-XH 2.50mm vertical, keyed harness"
+TP1,+5V_AMP,1,PCB test pad,Mesa:TP1,1.5 mm exposed test point
+TP2,+3V3,1,PCB test pad,Mesa:TP2,1.5 mm exposed test point
+TP3,GND,1,PCB test pad,Mesa:TP3,1.5 mm exposed test point
+TP4,AMP_SD,1,PCB test pad,Mesa:TP4,1.5 mm exposed test point
+H1,M3,1,M3 clearance,Mesa:H1,Non-plated mounting hole; M3 screw head max diameter 5.5mm
+H2,M3,1,M3 clearance,Mesa:H2,Non-plated mounting hole; M3 screw head max diameter 5.5mm
+H3,M3,1,M3 clearance,Mesa:H3,Non-plated mounting hole; M3 screw head max diameter 5.5mm
+H4,M3,1,M3 clearance,Mesa:H4,Non-plated mounting hole; M3 screw head max diameter 5.5mm

@@ -1,0 +1,90 @@
+{
+  "tool": "OpenSCAD version 2021.01",
+  "trimesh": "4.6.8",
+  "parts": {
+    "base": {
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "one_connected_solid": true,
+        "on_print_bed": true
+      },
+      "triangles": 4072,
+      "volume_mm3": 47025.845,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          94.0,
+          82.0,
+          40.0
+        ]
+      ],
+      "components": 1,
+      "sha256": "770f89c1e8e94869b6b8f90af815927a1f3b18d7d33963b5dfc25aec43567816"
+    },
+    "lid": {
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "one_connected_solid": true,
+        "on_print_bed": true
+      },
+      "triangles": 31876,
+      "volume_mm3": 16140.417,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          94.0,
+          82.0,
+          4.5
+        ]
+      ],
+      "components": 1,
+      "sha256": "543cf361c8ce246402a8eae254c396c7afb16d2f23002bc9d386803a4039703b"
+    },
+    "speaker_clamp": {
+      "checks": {
+        "watertight": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "one_connected_solid": true,
+        "on_print_bed": true
+      },
+      "triangles": 2096,
+      "volume_mm3": 1180.086,
+      "bounds_mm": [
+        [
+          -28.4,
+          -28.4,
+          0.0
+        ],
+        [
+          28.4,
+          28.4,
+          2.0
+        ]
+      ],
+      "components": 1,
+      "sha256": "40a958b0da3c1defbae540d56e125eac59a35dab1d7696ced91e17f4ba8c6ec1"
+    }
+  },
+  "physical_fit_tested": false,
+  "source_sha256": "d5f72f1fcee2a3f726c74ca8183072aca48b7db7873e5ce846cb898b0c6e9460",
+  "nominal_component_fit": {
+    "passed": true,
+    "intersection_volume_mm3": null,
+    "scope": "Component bounding volumes vs case, USB plug vs base, PCB screw heads vs modules",
+    "limitations": "Nominal envelope check; excludes flexible wiring, exact component tolerances and acoustics"
+  },
+  "passed": true
+}

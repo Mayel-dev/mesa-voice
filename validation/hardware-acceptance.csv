@@ -1,0 +1,11 @@
+id,etapa,criterio,resultado,valor_medido,unidad,instrumento,fecha,operador,observaciones
+1,Inspeccion,Pad y huellas 1:1 contra modulos recibidos,PENDIENTE,,,,,,
+2,Sin energia,Continuidad de redes y ausencia de cortos,PENDIENTE,,,,,,
+3,Alimentacion,5 V y 3.3 V en puntos de prueba,PENDIENTE,,,,,,
+4,Firmware,Compilacion y arranque en XIAO,PENDIENTE,,,,,,
+5,Mute,AMP_SD en reposo y reproduccion,PENDIENTE,,,,,,
+6,Audio,LRCLK BCLK PDM y altavoz medidos,PENDIENTE,,,,,,
+7,Transporte,PTT a backend mock y tono audible,PENDIENTE,,,,,,
+8,IA local,Diez comandos completos con modelos reales,PENDIENTE,,,,,,
+9,Potencia,Picos de corriente caida y temperatura,PENDIENTE,,,,,,
+10,Caja,Encaje acustica vibracion y prueba de una hora,PENDIENTE,,,,,,

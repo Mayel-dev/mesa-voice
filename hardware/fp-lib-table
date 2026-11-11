@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "Mesa")(type "KiCad")(uri "${KIPRJMOD}/Mesa.pretty")(options "")(descr "Mesa R1")))

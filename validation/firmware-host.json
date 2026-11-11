@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "timestamp_utc": "2026-11-10T05:25:56.470476+00:00",
+  "compiler": "Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64",
+  "compile_exit_code": 0,
+  "test_exit_code": 0,
+  "source_sha256": {
+    "firmware/test/test_audio_protocol.cpp": "33f05b8686aaaecaab11b87aea61c636f29361cb8cfe299aab211240733d7d8d",
+    "firmware/include/audio_protocol.h": "a90f03228ef58f63185401b548047bae551b808d8b48715fa57e1b4c4c169238",
+    "tools/check_firmware_host.py": "7d4025b51c502ee7e8fe50b8e934f83f0b180873f38d57492fe04e776f42c12b"
+  },
+  "log_sha256": "a458baf5fc81ebd1808f0a92f89587bb25b439b856b4a49d44dec6d6e61c115d",
+  "pcm_inputs_checked": 65536,
+  "hardware_tested": false
+}

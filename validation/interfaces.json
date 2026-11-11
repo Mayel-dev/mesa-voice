@@ -1,0 +1,599 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "XIAO pad 1 position",
+      "passed": true,
+      "evidence": {
+        "actual_mm": [
+          -7.62,
+          -7.62
+        ],
+        "manufacturer_mm": [
+          -7.62,
+          -7.62
+        ]
+      }
+    },
+    {
+      "name": "XIAO pad 2 position",
+      "passed": true,
+      "evidence": {
+        "actual_mm": [
+          -7.62,
+          -5.08
+        ],
+        "manufacturer_mm": [
+          -7.62,
+          -5.08
+        ]
+      }
+    },
+    {
+      "name": "XIAO pad 3 position",
+      "passed": true,
+      "evidence": {
+        "actual_mm": [
+          -7.62,
+          -2.54
+        ],
+        "manufacturer_mm": [
+          -7.62,
+          -2.54
+        ]
+      }
+    },
+    {
+      "name": "XIAO pad 4 position",
+      "passed": true,
+      "evidence": {
+        "actual_mm": [
+          -7.62,
+          0.0
+        ],
+        "manufacturer_mm": [
+          -7.62,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "XIAO pad 5 position",
+      "passed": true,
+      "evidence": {
+        "actual_mm": [
+          -7.62,
+          2.539999999999999
+        ],
+        "manufacturer_mm": [
+          -7.62,
+          2.54
+        ]
+      }
+    },
+    {
+      "name": "XIAO pad 6 position",
+      "passed": true,
+      "evidence": {
+        "actual_mm": [
+          -7.62,
+          5.079999000000001
+        ],
+        "manufacturer_mm": [
+          -7.62,
+          5.079999999999999
+        ]
+      }
+    },
+    {
+      "name": "XIAO pad 7 position",
+      "passed": true,
+      "evidence": {
+        "actual_mm": [
+          -7.62,
+          7.620000000000001
+        ],
+        "manufacturer_mm": [
+          -7.62,
+          7.62
+        ]
+      }
+    },
+    {
+      "name": "XIAO pad 8 position",
+      "passed": true,
+      "evidence": {
+        "actual_mm": [
+          7.620000000000001,
+          7.620000000000001
+        ],
+        "manufacturer_mm": [
+          7.62,
+          7.62
+        ]
+      }
+    },
+    {
+      "name": "XIAO pad 9 position",
+      "passed": true,
+      "evidence": {
+        "actual_mm": [
+          7.620000000000001,
+          5.08
+        ],
+        "manufacturer_mm": [
+          7.62,
+          5.08
+        ]
+      }
+    },
+    {
+      "name": "XIAO pad 10 position",
+      "passed": true,
+      "evidence": {
+        "actual_mm": [
+          7.620000000000001,
+          2.539999999999999
+        ],
+        "manufacturer_mm": [
+          7.62,
+          2.54
+        ]
+      }
+    },
+    {
+      "name": "XIAO pad 11 position",
+      "passed": true,
+      "evidence": {
+        "actual_mm": [
+          7.620000000000001,
+          0.0
+        ],
+        "manufacturer_mm": [
+          7.62,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "XIAO pad 12 position",
+      "passed": true,
+      "evidence": {
+        "actual_mm": [
+          7.620000000000001,
+          -2.54
+        ],
+        "manufacturer_mm": [
+          7.62,
+          -2.54
+        ]
+      }
+    },
+    {
+      "name": "XIAO pad 13 position",
+      "passed": true,
+      "evidence": {
+        "actual_mm": [
+          7.620000000000001,
+          -5.079999
+        ],
+        "manufacturer_mm": [
+          7.62,
+          -5.079999999999999
+        ]
+      }
+    },
+    {
+      "name": "XIAO pad 14 position",
+      "passed": true,
+      "evidence": {
+        "actual_mm": [
+          7.620000000000001,
+          -7.62
+        ],
+        "manufacturer_mm": [
+          7.62,
+          -7.62
+        ]
+      }
+    },
+    {
+      "name": "XIAO pad 1 net",
+      "passed": true,
+      "evidence": "PTT"
+    },
+    {
+      "name": "XIAO pad 2 net",
+      "passed": true,
+      "evidence": "LED_GPIO"
+    },
+    {
+      "name": "XIAO pad 4 net",
+      "passed": true,
+      "evidence": "MUTE"
+    },
+    {
+      "name": "XIAO pad 5 net",
+      "passed": true,
+      "evidence": "BCLK_SRC"
+    },
+    {
+      "name": "XIAO pad 6 net",
+      "passed": true,
+      "evidence": "LRCLK_SRC"
+    },
+    {
+      "name": "XIAO pad 7 net",
+      "passed": true,
+      "evidence": "DIN_SRC"
+    },
+    {
+      "name": "XIAO pad 12 net",
+      "passed": true,
+      "evidence": "+3V3"
+    },
+    {
+      "name": "XIAO pad 13 net",
+      "passed": true,
+      "evidence": "GND"
+    },
+    {
+      "name": "XIAO pad 14 net",
+      "passed": true,
+      "evidence": "+5V_USB"
+    },
+    {
+      "name": "Adafruit source orientation",
+      "passed": true,
+      "evidence": {
+        "name": "JP1",
+        "library": "microbuilder",
+        "package": "1X07_ROUND_76",
+        "value": "",
+        "x": "8.89",
+        "y": "2.54",
+        "smashed": "yes",
+        "rot": "R180"
+      }
+    },
+    {
+      "name": "Adafruit pin 2 net",
+      "passed": true,
+      "evidence": {
+        "source": "GND",
+        "carrier": "GND"
+      }
+    },
+    {
+      "name": "Adafruit pin 1 net",
+      "passed": true,
+      "evidence": {
+        "source": "VDD",
+        "carrier": "+5V_AMP"
+      }
+    },
+    {
+      "name": "Adafruit pin 3 net",
+      "passed": true,
+      "evidence": {
+        "source": "SD_MODE",
+        "carrier": "AMP_SD"
+      }
+    },
+    {
+      "name": "Adafruit pin 6 net",
+      "passed": true,
+      "evidence": {
+        "source": "BCLK",
+        "carrier": "BCLK"
+      }
+    },
+    {
+      "name": "Adafruit pin 7 net",
+      "passed": true,
+      "evidence": {
+        "source": "LRCLK",
+        "carrier": "LRCLK"
+      }
+    },
+    {
+      "name": "Adafruit pin 5 net",
+      "passed": true,
+      "evidence": {
+        "source": "DIN",
+        "carrier": "DIN"
+      }
+    },
+    {
+      "name": "Adafruit pin 4 net",
+      "passed": true,
+      "evidence": {
+        "source": "GAIN",
+        "carrier": "AMP_GAIN"
+      }
+    },
+    {
+      "name": "Adafruit pad 1 pitch",
+      "passed": true,
+      "evidence": [
+        -7.619999999999997,
+        0.0
+      ]
+    },
+    {
+      "name": "Adafruit pad 2 pitch",
+      "passed": true,
+      "evidence": [
+        -5.079999999999998,
+        0.0
+      ]
+    },
+    {
+      "name": "Adafruit pad 3 pitch",
+      "passed": true,
+      "evidence": [
+        -2.539999999999999,
+        0.0
+      ]
+    },
+    {
+      "name": "Adafruit pad 4 pitch",
+      "passed": true,
+      "evidence": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Adafruit pad 5 pitch",
+      "passed": true,
+      "evidence": [
+        2.539999999999999,
+        0.0
+      ]
+    },
+    {
+      "name": "Adafruit pad 6 pitch",
+      "passed": true,
+      "evidence": [
+        5.079999000000001,
+        0.0
+      ]
+    },
+    {
+      "name": "Adafruit pad 7 pitch",
+      "passed": true,
+      "evidence": [
+        7.619999999999997,
+        0.0
+      ]
+    },
+    {
+      "name": "Amp mounting hole positions",
+      "passed": true,
+      "evidence": [
+        [
+          36.65,
+          35.97
+        ],
+        [
+          49.35,
+          35.97
+        ]
+      ]
+    },
+    {
+      "name": "Firmware GPIO PTT_PIN",
+      "passed": true,
+      "evidence": 1
+    },
+    {
+      "name": "Firmware GPIO LED_PIN",
+      "passed": true,
+      "evidence": 2
+    },
+    {
+      "name": "Firmware GPIO MUTE_PIN",
+      "passed": true,
+      "evidence": 4
+    },
+    {
+      "name": "Firmware GPIO TX_BCLK",
+      "passed": true,
+      "evidence": 5
+    },
+    {
+      "name": "Firmware GPIO TX_LRCLK",
+      "passed": true,
+      "evidence": 6
+    },
+    {
+      "name": "Firmware GPIO TX_DATA",
+      "passed": true,
+      "evidence": 43
+    },
+    {
+      "name": "Firmware GPIO MIC_CLK",
+      "passed": true,
+      "evidence": 42
+    },
+    {
+      "name": "Firmware GPIO MIC_DATA",
+      "passed": true,
+      "evidence": 41
+    },
+    {
+      "name": "Interface R5",
+      "passed": true,
+      "evidence": [
+        "BCLK_SRC",
+        "BCLK"
+      ]
+    },
+    {
+      "name": "Interface R6",
+      "passed": true,
+      "evidence": [
+        "LRCLK_SRC",
+        "LRCLK"
+      ]
+    },
+    {
+      "name": "Interface R7",
+      "passed": true,
+      "evidence": [
+        "DIN_SRC",
+        "DIN"
+      ]
+    },
+    {
+      "name": "Interface R3",
+      "passed": true,
+      "evidence": [
+        "+3V3",
+        "MUTE"
+      ]
+    },
+    {
+      "name": "Interface R4",
+      "passed": true,
+      "evidence": [
+        "+5V_AMP",
+        "AMP_GAIN"
+      ]
+    },
+    {
+      "name": "Interface F1",
+      "passed": true,
+      "evidence": [
+        "+5V_USB",
+        "+5V_AMP"
+      ]
+    },
+    {
+      "name": "Interface J1",
+      "passed": true,
+      "evidence": [
+        "PTT",
+        "GND"
+      ]
+    },
+    {
+      "name": "Interface J2",
+      "passed": true,
+      "evidence": [
+        "LED_A",
+        "GND"
+      ]
+    },
+    {
+      "name": "Mute transistor G S D",
+      "passed": true,
+      "evidence": [
+        "MUTE",
+        "GND",
+        "AMP_SD"
+      ]
+    },
+    {
+      "name": "PCB holes match enclosure bosses",
+      "passed": true,
+      "evidence": [
+        [
+          3.0,
+          3.0
+        ],
+        [
+          3.0,
+          51.0
+        ],
+        [
+          61.0,
+          3.0
+        ],
+        [
+          61.0,
+          51.0
+        ]
+      ]
+    },
+    {
+      "name": "PCB size matches enclosure",
+      "passed": true,
+      "evidence": [
+        64,
+        54
+      ]
+    },
+    {
+      "name": "PCB height / amp screw floor clearance",
+      "passed": true,
+      "evidence": "M2.5x18 tip above floor with 11 mm spacer"
+    },
+    {
+      "name": "Button nut vs speaker pocket",
+      "passed": true,
+      "evidence": {
+        "nominal_gap_mm": 1.586
+      }
+    },
+    {
+      "name": "Button nut vs LED flange",
+      "passed": true,
+      "evidence": {
+        "nominal_gap_mm": 4.129
+      }
+    },
+    {
+      "name": "Button nut vs case boss [5, 5]",
+      "passed": true,
+      "evidence": {
+        "nominal_gap_mm": 56.847
+      }
+    },
+    {
+      "name": "Button nut vs case boss [89, 5]",
+      "passed": true,
+      "evidence": {
+        "nominal_gap_mm": 2.029
+      }
+    },
+    {
+      "name": "Button nut vs case boss [5, 77]",
+      "passed": true,
+      "evidence": {
+        "nominal_gap_mm": 78.606
+      }
+    },
+    {
+      "name": "Button nut vs case boss [89, 77]",
+      "passed": true,
+      "evidence": {
+        "nominal_gap_mm": 47.37
+      }
+    },
+    {
+      "name": "USB overmould opening clearance",
+      "passed": true,
+      "evidence": "16x12 mm plug envelope, at least 1 mm each side"
+    },
+    {
+      "name": "Every populated carrier reference in BOM",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "name": "BOM unique rows and positive quantities",
+      "passed": true,
+      "evidence": 38
+    }
+  ],
+  "physical_fit_tested": false,
+  "sources": "See docs/sources.md; Adafruit Eagle pin/hole data parsed directly",
+  "files_sha256": {
+    "hardware/mesa-voice.kicad_pcb": "d48b7ffb45bb474ac1b4d854cef37ed9657a3d073678b5db5132df238448ad0c",
+    "mechanical/enclosure.scad": "d5f72f1fcee2a3f726c74ca8183072aca48b7db7873e5ce846cb898b0c6e9460",
+    "firmware/src/main.cpp": "3dd92e71df4da97e6b661c0f9bfc1eafe6961d1b398319f5984dd9b0d71d1e34",
+    "BOM.csv": "074261232bbf8b7d026751a407bd26c4c5b1c3bbb3e61f62350fe2565babfae3"
+  }
+}
